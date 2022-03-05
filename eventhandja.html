@@ -1,0 +1,24 @@
+<html >
+<body>
+<center>
+<div class="a" id="a">
+<img src="a.jpg" id="image"><br><br>
+<h1 id="text1">Good night.....</h1>
+<h1 id="text2">Good morning....</h1>
+</div>
+<script>
+document.getElementById("a").addEventListener("mouseover",ab);
+document.getElementById("a").addEventListener("mouseout",bc);
+function ab() {
+document.getElementById('image').src = "images (4).jpeg";
+document.getElementById('text1').style.display="none";
+document.getElementById('text2').style.display="block"
+}
+function bc() {
+document.getElementById('image').src = "images (3).jpeg";
+document.getElementById('text1').style.display="block";
+document.getElementById('text2').style.display="none";
+}
+</script>
+</center>
+</body></html>
